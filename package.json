@@ -32,6 +32,8 @@
     "@hookform/resolvers": "^3.9.1",
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
+    "@openai/chatkit": "1.0.0",
+    "@openai/chatkit-react": "1.1.1",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-alert-dialog": "^1.1.6",
     "@radix-ui/react-aspect-ratio": "^1.1.2",

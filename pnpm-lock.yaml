@@ -35,6 +35,12 @@ importers:
       '@mui/material':
         specifier: ^7.3.1
         version: 7.3.1(@emotion/react@11.14.0(@types/react@19.0.1)(react@19.0.0))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.0.1)(react@19.0.0))(@types/react@19.0.1)(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@openai/chatkit':
+        specifier: 1.0.0
+        version: 1.0.0
+      '@openai/chatkit-react':
+        specifier: 1.1.1
+        version: 1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@radix-ui/react-accordion':
         specifier: ^1.2.3
         version: 1.2.3(@types/react-dom@19.0.2(@types/react@19.0.1))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -927,6 +933,15 @@ packages:
   '@nolyfill/is-core-module@1.0.39':
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
+
+  '@openai/chatkit-react@1.1.1':
+    resolution: {integrity: sha512-sbYZBqLkx5nEIRmBFXJ8OCsRB+0II1eu/9QSVJP4T73PdAsggTMPfxw8FUGioFFJcYrNVoFvYaBFHZVUC71jtw==}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+
+  '@openai/chatkit@1.0.0':
+    resolution: {integrity: sha512-BlRu1UMz29z01bn0D2nA5lgSeo0Eu/5uNdGUMKchoFEDHWQ8ViCHDRFO45O6FT/cdqhXbYZOzIrjUryq6djk4w==}
 
   '@opentelemetry/api-logs@0.57.2':
     resolution: {integrity: sha512-uIX52NnTM0iBh84MShlpouI7UKqkZ7MrUszTmaypHBu4r7NofznSnQRfJ+uUeDtQDj6w8eFGg5KBLDAwAPz1+A==}
@@ -5400,6 +5415,14 @@ snapshots:
       fastq: 1.19.1
 
   '@nolyfill/is-core-module@1.0.39': {}
+
+  '@openai/chatkit-react@1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      '@openai/chatkit': 1.0.0
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+
+  '@openai/chatkit@1.0.0': {}
 
   '@opentelemetry/api-logs@0.57.2':
     dependencies:

@@ -45,7 +45,8 @@ export async function middleware(request: NextRequest) {
     '/contact',
     '/auth',
     '/dashboard',
-    '/api'
+    '/api',
+    '/chatkit',
   ]
 
   // Check if the current path is a valid route or a sub-route of valid routes

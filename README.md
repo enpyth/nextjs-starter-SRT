@@ -2,7 +2,20 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, config `.env.local`
+
+```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+SUPABASE_STORAGE_BUCKET_NAME=
+RESEND_API_KEY=
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=
+OPENAI_API_KEY=
+NEXT_PUBLIC_CHATKIT_WORKFLOW_ID=
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
