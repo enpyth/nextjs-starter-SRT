@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "@/features/home/hero";
 
 export default function AboutUs() {
